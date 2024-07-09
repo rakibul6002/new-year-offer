@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Common Style */
+
+/* Header Style */
+header{
+    
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-image: url(/images/Banner\ Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    margin-top: 50px;
+
+
+ 
+
+}
+.banner-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 177px 344px;
+    text-align: center;
+    justify-content: center;
+
+}
+.banner-content p{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.banner-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: -20px;
+    
+}
+/* 65% Off section */
+.newyear-off{
+    margin: 120px 140px;
+    
+}
+.newyear-offer{
+    
+    text-align: center;
+    font-family: Inter;
+}
+.newyear-offer img{
+    width: 802px;
+    height: 500px;
+}
+.newyear-offer h2{
+    font-size: 88px;
+    color: #FF0000;
+    font-weight: bold;
+}
+.newyear-offer p{
+    font-size: 24px;
+    color: #FF0000;
+    margin-top: -20px;
+}
+
+
+.newyear-offer h4{
+    font-size: 48px;
+    color: #070211;
+    margin-top: -20px;
+}
